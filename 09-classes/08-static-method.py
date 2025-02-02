@@ -1,0 +1,5 @@
+class MathUtils:
+    pass
+
+
+print()  #
