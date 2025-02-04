@@ -8,5 +8,9 @@ class Person:
 
 
 # 인스턴스 생성
+p1 = Person('Alice', 25)
+p2 = Person('Bella', 30)
 
 # 인스턴스 메서드 호출
+p1.introduce() # p1.소개해()>>객체.행동()>>인스턴스.메서드()
+p2.introduce()

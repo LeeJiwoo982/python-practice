@@ -1,5 +1,8 @@
 class MathUtils:
-    pass
+    @staticmethod
+    def add(a,b):
+        return a+b
 
+# 덧셈 기능을 제공할 때때
 
-print()  #
+print(MathUtils.add(3,5))  #8
