@@ -21,7 +21,7 @@ class Dad(Person):
         return '아빠가 걷기'
 
 
-class FirstChild(Dad, Mom):
+class FirstChild(Mom, Dad):
     def swim(self):
         return '첫째가 수영'
 
@@ -33,4 +33,5 @@ baby1 = FirstChild('아가')
 print(baby1.cry())  # 첫째가 응애
 print(baby1.swim())  # 첫째가 수영
 print(baby1.walk())  # 아빠가 걷기
-# print(baby1.gene)  # ??
+print(baby1.gene)  # ??xy , 엄빠순서 바꾸면 xx
+ 

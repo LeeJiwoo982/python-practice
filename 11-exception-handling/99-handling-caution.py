@@ -24,5 +24,5 @@ except ZeroDivisionError:
 except ValueError:
     print('숫자를 넣어주세요.')
 # 2) 마지막에 광범위한 예외(Exception)
-except Exception:
+except Exception: # 범용에러 처리에 쓰기 좋음
     print('에러가 발생하였습니다.')

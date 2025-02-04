@@ -37,11 +37,12 @@ class Student:
 
 
 # 상속을 사용한 계층구조 변경
-class Person:
+class Person: 
     def __init__(self, name, age):
         self.name = name
         self.age = age
-
+        #공통된 부분
+        
     def talk(self):  # 메서드 재사용
         print(f'반갑습니다. {self.name}입니다.')
 

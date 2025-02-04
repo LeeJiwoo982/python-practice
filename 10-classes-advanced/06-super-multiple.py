@@ -1,7 +1,7 @@
 # 다중 상속
 class ParentA:
     def __init__(self):
-        # super().__init__()
+        super().__init__() # 
         self.value_a = 'ParentA'
 
     def show_value(self):
@@ -76,6 +76,6 @@ MRO 순서를 기반으로 “현재 클래스의 다음 순서” 클래스(또
 
 1.3 결과적으로 child 인스턴스는 value_a, value_b, value_c 세 속성을 모두 갖게 됨
 	- child.value_a → 'ParentA'
-	- child.value_b → 'ParentB' 
+	- child.value_b → 'ParentsB' 
 	- child.value_c → 'Child'
 """
